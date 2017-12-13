@@ -8,6 +8,7 @@ namespace Todo
 	{
 		readonly SQLiteAsyncConnection database;
 
+
 		public TodoItemDatabase(string dbPath)
 		{
 			database = new SQLiteAsyncConnection(dbPath);
